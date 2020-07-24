@@ -14,9 +14,10 @@ class Flight():
 
 
 flight = Flight(3)
-print(flight.passengers)
 
-people = ["amir", "tj", "rohit", "tony"]
+
+
+people = ["amir", "tj","rohit", "tony"]
 
 for person in people:
     if flight.add_passenger(person):
